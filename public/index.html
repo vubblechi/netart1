@@ -1,11 +1,28 @@
 <!doctype html>
+<html>
 <head>
     <title>template</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
-
 <body>
-   <iframe style="width: 640px; height: 360px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/vubblechi/full/29IU2B15T"></iframe>
-   <script src="script.js"></script>
-</body> 
+    <iframe 
+        src="https://editor.p5js.org/vubblechi/full/29IU2B15T"
+        scrolling="no"
+        allowfullscreen>
+    </iframe>
+    <script src="script.js"></script>
+</body>
+</html>
